@@ -119,8 +119,42 @@ p, h2, h4, h6{
 .mensaje a{
 	color: red;
 }
-footer{
+.centrado h3{
+	text-align: center;
+}
+.menu3{
+
+	padding-top: 15px;
+}
+.menu3 li{
+	font-family: 'Open Sans Condensed', sans-serif;	
+	list-style: none;
+}
+.menu3 a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.menu3 a:hover{
+	text-decoration: none;
+	color: red;
+	margin-right: 9px;
+}
+.pie{
 	background-color: #000;
-	color: gray;
-	padding: 50px;
+	color: gray;	
+}
+.footer{
+	padding-top: 20px;	
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.imagen{
+	padding-left: 15px;
+}
+.footer button{
+	margin-left: 35px;
+	color: #fff;
+	border-radius: 10px;
+	background-color: red;
 }
