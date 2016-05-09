@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800,300italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+p, h2, h4, h6{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.encabezado{
+	background-color: #000;
+}
+.encabezado h1{
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-weight: 800;
+	padding-left: 30px;
+	padding-bottom: 15px;
+}
+.menu{
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+.menu li{
+	display: inline-block;
+	font-size: 18px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.menu a{
+	text-decoration: none;
+	color: #fff;
+	margin: 30px;
+}
+.menu a:hover{
+	text-decoration: none;
+	color: red;
+	margin: 30px;
+}
+.dos{
+	margin-top: 35px;
+}
+.dos h1, p{
+	margin-bottom: 20px;
+	margin-right: 20px;
+}
+.dos p{
+	font-size: 22px;
+}
+.dos button{
+	color: #fff;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: gray;
+	opacity: 0.5;
+}
+.menu2{	
+	margin-left: -35px;
+}
+.menu2 li{
+	display: inline-block;
+	font-size: 18px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.menu2 a{
+	text-decoration: none;
+	color: #000;
+	margin-right: 9px;
+}
+
+.menu2 a:hover{
+	text-decoration: none;
+	color: gray;
+	margin-right: 9px;
+}
+.tres span{
+	margin-top: 40px;
+	opacity: 0.5;
+	height: 50px;
+}
+.tres span:hover{
+	margin-top: 40px;
+	opacity: 0.7;
+}
+.bordes img{
+	border:1px solid gray;
+}
+.bordes span{
+	margin-top: 15px;
+}
+.iconos{
+	margin-top: 15px;
+}
+.iconos h4{
+	font-size: 20px;
+}
+.iconos span{
+	opacity: 0.5;
+}
+.boton button{
+	width: 100px;
+	height: 40px;
+	color: #fff;
+	border-radius: 10px;/*
+	padding: 25px;*/
+	background-color: gray;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 500px;
+}
+.mensaje{
+	margin-bottom: 40px;
+}
+.mensaje button{
+	margin-left: 35px;
+	color: #fff;
+	border-radius: 10px;
+	background-color: gray;
+}
+.mensaje .text{
+	font-size: 32px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.mensaje a{
+	color: red;
+}
+footer{
+	background-color: #000;
+	color: gray;
+	padding: 50px;
+}
