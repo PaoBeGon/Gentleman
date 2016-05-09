@@ -152,9 +152,18 @@ p, h2, h4, h6{
 .imagen{
 	padding-left: 15px;
 }
+.footer a, h2{
+	color: red;
+	opacity: 0.6;
+}
 .footer button{
 	margin-left: 35px;
 	color: #fff;
 	border-radius: 10px;
 	background-color: red;
+	opacity: 0.8;
+}
+.footer h6, a{
+	text-align: center;
+
 }
